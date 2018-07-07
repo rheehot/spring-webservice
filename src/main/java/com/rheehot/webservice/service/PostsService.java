@@ -1,6 +1,7 @@
 package com.rheehot.webservice.service;
 
 import com.rheehot.webservice.domain.posts.PostsRepository;
+//import com.rheehot.webservice.dto.PostsMainResponseDto;
 import com.rheehot.webservice.dto.PostsMainResponseDto;
 import com.rheehot.webservice.dto.PostsSaveRequestDto;
 import lombok.AllArgsConstructor;
