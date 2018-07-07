@@ -10,11 +10,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 @AllArgsConstructor
 public class WebController {
 
-//    @GetMapping("/") // = @RequestMapping(value="/", method = RequestMethod.GET)
-//    public String main() {
-//        return "main";
-//    }
-
     private PostsService postsService;
 
     @GetMapping("/")
