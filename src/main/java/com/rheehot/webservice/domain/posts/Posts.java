@@ -14,7 +14,7 @@ import javax.persistence.*;
 public class Posts extends BaseTimeEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO) // spring boot 2.0
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // spring boot 2.0
     private Long id;
 
     @Column(length = 500, nullable = false)
