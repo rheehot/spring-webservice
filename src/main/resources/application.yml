@@ -31,3 +31,12 @@ spring.profiles.include: real-db
 
 server:
   port: 8082
+
+---
+spring:
+  profiles: real-db
+  datasource:
+      url: jdbc:mariadb://springbootwebservice.cohgejwwlpn6.ap-northeast-2.rds.amazonaws.com:3306/webservice
+      username: rheehot
+      password: admin1234
+      driver-class-name: org.mariadb.jdbc.Driver
